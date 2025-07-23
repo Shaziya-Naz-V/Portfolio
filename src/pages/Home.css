@@ -1,0 +1,75 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: white;
+  min-height: 70vh;
+  gap: 10%;
+}
+
+.imag .profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px 5px white; 
+  transition: transform 0.3s ease;
+}
+
+.imag .profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.info {
+  max-width: 500px;
+}
+
+.info h2 {
+  font-size: 32px;
+  color: wheat;
+  margin-bottom: 10px;
+}
+.info h3 {
+  color: antiquewhite;
+  margin-bottom: 10px;
+}
+.info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons  i:hover {
+  color: wheat;
+  transform: scale(1.2);
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 28px;
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+button:hover {
+  background-color: wheat;
+  transform: scale(1.05);
+}

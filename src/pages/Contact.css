@@ -1,0 +1,73 @@
+/* Overall container */
+.con {
+  padding: 50px 20px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #243B55, #141E30);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title styling */
+.title h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: wheat;
+}
+
+/* Form container */
+.form {
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+/* Label styling */
+.form label {
+  display: block;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 0 5px;
+}
+
+/* Input & textarea styling */
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  color: black;
+  font-size: 15px;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  box-shadow: 0 0 0 2px wheat;
+}
+
+/* Add submit button */
+.form button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: white;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form button:hover {
+  background-color: wheat;
+}

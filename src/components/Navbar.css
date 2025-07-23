@@ -1,0 +1,28 @@
+.navcontainer {
+  margin: 0;
+  height: 8vh;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.name {
+  color: white;
+  font-size: 1rem;
+}
+
+.links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.links a:hover {
+  background-color: aliceblue;
+  color: black;
+}

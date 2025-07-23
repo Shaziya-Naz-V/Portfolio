@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #E0E0E0;
+}
+body{
+  background: linear-gradient(to right, #243B55, #141E30);
+   font-family: 'Times New Roman', Times, serif;
+}
