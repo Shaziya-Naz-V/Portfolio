@@ -10,7 +10,7 @@
 
 .imag .profile-pic {
   width: 300px;
-  height: 300px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 10px 5px white; 
@@ -55,8 +55,9 @@
   transform: scale(1.2);
 }
 
-button {
-  margin-top: 30px;
+.btn-primary {
+  display:inline-block;
+  margin-top:30px;
   padding: 12px 28px;
   background-color: white;
   color: #000;
@@ -66,10 +67,11 @@ button {
   font-size: 16px;
   font-weight: bold;
   transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: None;
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
 }
 
-button:hover {
+.btn-primary:hover {
   background-color: wheat;
   transform: scale(1.05);
 }
