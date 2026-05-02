@@ -24,7 +24,7 @@ function home() {
                         <i className="fas fa-envelope fa-2x"></i>
                     </a>
                 </div>
-                <a href="/SHAZIYA_FSD" download className="btn-primary">
+                <a href="/SHAZIYA_FSD.pdf" download className="btn-primary">
                  Download Resume 
                 </a>
             </div>
