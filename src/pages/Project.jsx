@@ -20,15 +20,15 @@ const projects = [
     title: "Currency Converter",
     desc: "Created a real-time currency converter using API integration with responsive UI for accurate exchange rates.",
     tech: "Javascript, Api, HTML, CSS",
-    live: "https://your-live-link.com",
-    github: "https://github.com/your-repo",
+    live: "https://currency-converter-alpha-one-69.vercel.app/",
+    github: "https://github.com/Shaziya-Naz-V/CurrencyConverter",
   },
    {
     title: "Student Result Management Dashboard",
     desc: "Dashboard to manage student results with CRUD operations and performance visualization ",
     tech: "React, Node.js, Express, MongoDB",
-    live: "https://your-live-link.com",
-    github: "https://github.com/your-repo",
+    live: "https://student-result-management-system-theta.vercel.app/",
+    github: "https://github.com/Shaziya-Naz-V/Student-Result-Management-System",
   },
 ];
 

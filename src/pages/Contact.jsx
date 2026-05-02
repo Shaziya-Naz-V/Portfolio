@@ -1,4 +1,7 @@
 import './Contact.css';
+import emailjs from '@emailjs/browser';
+
+emailjs.init('YYcKJZ5xc0ylKiYZK');
 
 function Contact() {
   const handleSubmit = async (e) => {
@@ -13,25 +16,23 @@ function Contact() {
       return;
     }
 
+    const templateParams = {
+      name: name,
+      email: email,
+      message: message,
+      time: new Date().toLocaleString(),
+    };
+
     try {
-      const res = await fetch("http://localhost:5000/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ name, email, message })
-      });
-
-      const data = await res.json();
-
-      if (data.success) {
-        alert("Message sent successfully!");
-        e.target.reset(); // Clear the form
-      } else {
-        alert("Failed to send message.");
-      }
+      await emailjs.send(
+        'service_03lye46',
+        'template_2mt7nsl',
+        templateParams
+      );
+      alert("Message sent successfully!");
+      e.target.reset();
     } catch (err) {
-      alert("Server error. Please try again later.");
+      alert("Failed to send message. Try again!");
       console.error(err);
     }
   };
