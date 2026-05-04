@@ -60,3 +60,58 @@
 .buttons a:hover {
   background: white;
 }
+/* ── Mobile (max 768px) ── */
+@media (max-width: 768px) {
+  .projects {
+    padding: 40px 10px;    /* ✅ less side padding */
+    overflow-x: hidden;
+  }
+
+  .projects h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .project-container {
+    grid-template-columns: 1fr;  /* ✅ force single column */
+    gap: 15px;
+    width: 100%;
+  }
+
+  .project-card {
+    width: 100%;             /* ✅ full width */
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+}
+
+/* ── Small Mobile (max 480px) ── */
+@media (max-width: 480px) {
+  .projects {
+    padding: 20px 8px;
+  }
+
+  .project-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .project-card {
+    padding: 12px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .buttons a {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+    min-width: 80px;
+    max-width: 130px;
+  }
+}

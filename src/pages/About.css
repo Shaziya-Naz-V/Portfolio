@@ -26,3 +26,57 @@
 .about strong {
   color: wheat;
 }
+/* ── Tablet (max 1024px) ── */
+@media (max-width: 1024px) {
+  .about {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 30px 20px;
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+}
+
+/* ── Mobile (max 768px) ── */
+@media (max-width: 768px) {
+  .about {
+    margin: 40px 15px;
+    padding: 25px 15px;
+    border-radius: 10px;
+  }
+
+  .about h1 {
+    font-size: 26px;
+  }
+
+  .about p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;        /* justify looks odd on small screens */
+  }
+}
+
+/* ── Small Mobile (max 480px) ── */
+@media (max-width: 480px) {
+  .about {
+    margin: 20px 10px;
+    padding: 20px 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+
+  .about h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .about p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+}

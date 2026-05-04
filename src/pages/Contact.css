@@ -71,3 +71,89 @@
 .form button:hover {
   background-color: wheat;
 }
+/* ── Tablet (max 1024px) ── */
+@media (max-width: 1024px) {
+  .con {
+    padding: 40px 20px;
+  }
+
+  .title h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .form {
+    max-width: 450px;
+    padding: 25px;
+  }
+}
+
+/* ── Mobile (max 768px) ── */
+@media (max-width: 768px) {
+  .con {
+    padding: 30px 15px;
+    min-height: auto;
+  }
+
+  .title h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .form {
+    max-width: 100%;        /* ✅ full width on mobile */
+    padding: 20px 15px;
+    border-radius: 10px;
+  }
+
+  .form label {
+    font-size: 0.95rem;
+  }
+
+  .form input,
+  .form textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .form button {
+    padding: 11px;
+    font-size: 15px;
+  }
+}
+
+/* ── Small Mobile (max 480px) ── */
+@media (max-width: 480px) {
+  .con {
+    padding: 20px 10px;
+  }
+
+  .title h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .form {
+    padding: 15px 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+
+  .form label {
+    font-size: 0.9rem;
+  }
+
+  .form input,
+  .form textarea {
+    padding: 9px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+
+  .form button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+}

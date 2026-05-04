@@ -75,3 +75,80 @@
   background-color: wheat;
   transform: scale(1.05);
 }
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;       /* stack image above text */
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 40px 20px;
+    min-height: auto;
+  }
+
+  .imag .profile-pic {
+    width: 200px;
+    height: 230px;
+  }
+
+  .info {
+    max-width: 100%;
+  }
+
+  .info h2 {
+    font-size: 26px;
+  }
+
+  .info h3 {
+    font-size: 16px;
+  }
+
+  .info p {
+    font-size: 15px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .social-icons a {
+    margin-right: 0;              /* gap handles spacing */
+  }
+
+  .btn-primary {
+    width: auto;           /* ✅ remove full stretch */
+    min-width: 200px;      /* ✅ decent size but not full width */
+    display: block;
+    margin: 30px auto 0;   /* ✅ center it */
+    text-align: center;
+    padding: 12px 28px;
+    border-radius: 25px;   /* ✅ make sure pill shape shows */
+  }
+}
+
+/* ── Small Mobile (max 480px) ── */
+@media (max-width: 480px) {
+  .main {
+    padding: 30px 15px;
+  }
+
+  .imag .profile-pic {
+    width: 160px;
+    height: 185px;
+  }
+
+  .info h2 {
+    font-size: 22px;
+  }
+
+  .info h3 {
+    font-size: 14px;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+  
+}
