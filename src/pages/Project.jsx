@@ -13,8 +13,8 @@ const projects = [
     title: "Business Decision Impact Analysis",
     desc: "Developed an ensemble ML model using XGBoost, CatBoost, and ExtraTrees achieving 90-95% accuracy for business prediction",
     tech: "Python, Machine Learning, Pandas, Scikit-learn, React",
-    live: "https://your-live-link.com",
-    github: "https://github.com/your-repo",
+    live: "https://business-decision-impact-analysis-u.vercel.app/",
+    github: "https://Business-Decision-Impact-Analysis-using-Ensemble-Machine-LearningShaziya-Naz-V/",
   },
   {
     title: "Currency Converter",
